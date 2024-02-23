@@ -1,0 +1,35 @@
+body {
+    background-color: #f0f8ff;
+    color: #333; 
+    font-family: Arial, sans-serif;
+}
+
+.titulo {
+    color: #0066cc; 
+}
+
+.lista {
+    list-style-type: none;
+    padding: 0;
+}
+
+.item1,
+.item2,
+.item3 {
+    background-color: #e6f7ff;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.titulo-meta {
+    color: #004080;
+}
+
+.importancia-meta {
+    color: #336699;
+}
+
+.prazo-meta {
+    color: #0073e6;
+}
