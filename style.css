@@ -3,4 +3,19 @@ h1{
     color: aquamarine;
     background-color: blue;
     font-size: 50px;
+    font-family: Oswald;
+}
+
+ul{
+    font-size: 30px;
+    color: black;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+.titulo-meta{
+    background-color: bisque;
+    font-size: 60px;
 }
