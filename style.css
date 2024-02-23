@@ -1,5 +1,6 @@
 body {
-    background-color: #f0f8ff;
+    background-image: url("https://st2.depositphotos.com/3894705/7745/i/450/depositphotos_77458360-stock-photo-grunge-background-of-dark-blue.jpg");
+    background-size: cover; 
     color: #333; 
     font-family: Arial, sans-serif;
 }
