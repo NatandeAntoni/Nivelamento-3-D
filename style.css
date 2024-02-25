@@ -1,15 +1,16 @@
 body {
-    background-color: #aeeeee;
+    background-color: #005050;
     background-size: cover; 
-    color: #333; 
+    color: #fff; 
     font-family: Arial, sans-serif;
 }
 
 .titulo {
-    color: #0066cc; 
+    color: #003366; 
 }
 
 .lista {
+    background-color: #004d4d;
     list-style-type: none;
     padding: 0;
 }
@@ -25,13 +26,13 @@ body {
 }
 
 .titulo-meta {
-    color: #004080;
+    color: #002b5e;
 }
 
 .importancia-meta {
-    color: #336699;
+    color: #004080;
 }
 
 .prazo-meta {
-    color: #0073e6;
+    color: #005cbf;
 }
