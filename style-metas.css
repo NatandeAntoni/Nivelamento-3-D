@@ -10,7 +10,7 @@
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco);
-    font-family: 'Chakra Petch', sans-serif;
+
 }
 
 .conteudo-principal {
@@ -27,6 +27,7 @@ body {
     text-align: left;
     width: 100%;
     font-size: 32px;
+
 }
 
 .titulo-principal span {
@@ -43,6 +44,7 @@ body {
     font-size: 18px;
     align-items: center;
     width: 100%;
+
     border-bottom: 4px solid var(--botao-ativo);
     border-left: 2px solid var(--botao-ativo);
     border-right: 2px solid var(--botao-ativo);
@@ -53,10 +55,11 @@ body {
     display: block;
 }
 
-.ativo {
+.botao.ativo {
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
 }
+
 
 @media screen and (min-width: 768px) {
     .botoes {
@@ -67,16 +70,42 @@ body {
         border-radius: 40px 40px 0 0;
     }
 }
-    @media screen and (min-width: 768px) {
-        .botoes {
-            display: flex;
-        }
 
-        .botao:first-child {
-            border-radius: 40px 0 0 0;
-        }
-
-        .botao:last-child {
-            border-radius: 0 40px 0 0;
-        }
+@media screen and (min-width: 768px) {
+    .botoes {
+        display: flex;
     }
+
+    .botao:first-child {
+        border-radius: 40px 0 0 0;
+    }
+
+    .botao:last-child {
+        border-radius: 0 40px 0 0;
+    }
+}
+
+.abas-textos {
+    background-color: var(--texto-fundo);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+}
+
+.aba-conteudo.ativo {
+    display: block;
+}
+
+.aba-conteudo {
+    display: none;
+}
+
+.aba-conteudo-titulo-principal {
+    font-size: 30px;
+    text-align: center;
+}
+
+.aba-conteudo-titulo-secundario {
+    text-align: center;
+    color: var(--verde);
+    text-transform: uppercase;
+}
